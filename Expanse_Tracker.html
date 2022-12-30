@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Expanse Tracker</title>
+</head>
+
+<body>
+    <form id="form">
+        <div class="form-group w-25 p-3">
+            <label for="Expenditure">Expenditure</label>
+            <input type="number" class="form-control" id="Expenditure" placeholder="Expanse">
+        </div>
+        <div class="form-group w-25 p-3">
+            <label for="Description">Category Description</label>
+            <input type="text" class="form-control" id="Description" placeholder="Description">
+        </div>
+        <div class="form-group w-25 p-3">
+            <label for="Category">Category name</label>
+            <select class="form-control " id="Category" >
+                <option value="">choose one</option>
+                <option value="movie">movie</option>
+                <option value="holiday">holiday</option>
+                <option value="School">School fee</option>
+                <option value="Insurance">Insurance</option>
+                <option value="Grocery">Grocery</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary form-control form-group w-25 p-3 text-center">Submit</button>
+    </form>
+    <ul id="users"></ul>
+    <script src="Expanse_Tracker.js"></script>
+</body>
+
+</html>
